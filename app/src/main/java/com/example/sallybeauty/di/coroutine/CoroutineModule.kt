@@ -1,0 +1,24 @@
+package com.example.sallybeauty.di.coroutine
+
+import com.google.android.datatransport.runtime.dagger.Module
+import com.google.android.datatransport.runtime.dagger.Provides
+import dagger.hilt.InstallIn
+import dagger.hilt.android.components.ViewModelComponent
+import dagger.hilt.android.scopes.ViewModelScoped
+import kotlinx.coroutines.Dispatchers
+import javax.inject.Qualifier
+
+
+@Module
+@InstallIn(ViewModelComponent::class)
+object CoroutineDispatchersModule {
+
+    @IoDispatcher
+    @Provides
+    @ViewModelScoped
+    fun providesIoDispatcher() = Dispatchers.IO
+}
+
+@Retention(AnnotationRetention.RUNTIME)
+@Qualifier
+annotation class IoDispatcher

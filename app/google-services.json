@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "948254388627",
+    "project_id": "sallybeauty-a21f3",
+    "storage_bucket": "sallybeauty-a21f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948254388627:android:e201d2099a42600c2ff866",
+        "android_client_info": {
+          "package_name": "com.example.sallybeauty"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4YLyNfsrblwaexxtWO-wrhWSDm9tDmsY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
